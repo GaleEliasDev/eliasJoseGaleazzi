@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio do Elias</title>
+    <style>
+        .container {
+            display: grid;
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-image: inherit;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: darkorange;
+        }
+
+        .container_menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            gap: 22%;
+            display: flex;
+
+
+        }
+
+        .container_wrapper {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            display: flex;
+            text-align: justify;
+            font-size: large;
+
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin: 0;
+            background-color: white;
+            text-align: center;
+            margin: auto;
+        }
+
+        .hobbie {
+            display: block;
+            width: 25%;
+            padding: 3px 15px;
+            border-radius: 5px
+        }
+
+        .git {
+            display: block;
+            width: 25%;
+            padding: 3px 15px;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        .linkedin {
+            display: block;
+            width: 25%;
+            padding: 3px 15px;
+            border-radius: 5px;
+            margin: spx 0;
+            font-family: fantasy;
+        }
+
+
+        .rodape {
+            display: flex;
+            width: 100%;
+            padding: 5%;
+            background-color: rgba(255, 166, 0, 0.439);
+            color: #000;
+            border-radius: 2% 50%;
+            margin: spx 0;
+            font-size: larger;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            ;
+        }
+
+        .parceiros {
+            margin: auto;
+            display: flex;
+        }
+    </style>
+</head>
+
+<body class="principal">
+
+    <header class="container">
+        <h1 style="color: rgb(255, 255, 255); text-align: center;"> Biografia do Elias</h1>
+    </header>
+    <br>
+    <div class="container_wrapper">
+        <img src="imagens/fotoElias.png" width="400px" height="300px">
+    
+        <p>Nascido em 09 de agosto de 1999, na acolhedora cidade de São Lourenço do Oeste,
+         em Santa Catarina, sou alguém que traz consigo as raízes do sul do Brasil. Desde o meu nascimento, 
+         tenho sido influenciado pela beleza da região e pela hospitalidade de sua gente. 
+         Essa conexão com minha cidade natal moldou minha personalidade e minha apreciação 
+         pela cultura local. Sou grato por carregar essa bagagem e por estar pronto para enfrentar os 
+         desafios que o futuro reserva, sempre lembrando de onde venho e da riqueza que minha 
+         terra natal me proporcionou.
+         Além disso, sou um ávido estudante de tecnologia. Minha paixão por esse campo é 
+         alimentado pela curiosidade incessante, sempre ansioso para adquirir mais conhecimento e 
+         explorar as possibilidades infinitas que a tecnologia oferece. Quero não apenas 
+         acompanhar, mas também moldar o futuro por meio do meu constante desejo de  
+         aprendizado. Essa sede por conhecimento tecnológico é uma parte vital da minha jornada e 
+         da maneira como pretendo contribuir para um mundo em constante evolução. 
+        </p>
+    </div> <br>
+
+    <nav class="container_menu">
+        <p><a href="index2.html" class="hobbie"><img src="imagens/perfil elias boneco.jpg" width="60"></a>  <br>Sobre mim</p>
+                <p><a href="https://github.com/GaleEliasDev?tab=repositories" class="git"><img src="imagens/GIT.png" width="70"></a>GitHub</p>
+                        <p><a href="https://www.linkedin.com/in/elias-jose-galeazzi-316678227/" class="linkedin"><img src="imagens/linkedin.png" width="50"></a>LinkedIn</p>
+                                <p><a href="index3.html"> <img src="imagens/brain.png" width="50"></a> <br> Formações Acadêmicas</p>
+                                        <br>
+    </nav>
+    <br>
+    <br>
+    <footer class="rodape">
+
+        <form>
+            <h> Entre em contato conosco preenchendo o formulário</h> <br>
+            <br>
+            Nome: <input type="text" name="nome">
+            <br>
+            Email: <input type="email" name="email"> <br>
+            <br>
+            Assunto: <select name="Assunto">
+                <option>Parcerias</option>
+                <option>RH</option>
+                <option>Financeiro</option>
+                <option>Juridico</option>
+            </select> <br>
+            <br>
+            <input type="submit">
+
+        </form> <br>
+        <div class="parceiros">
+            <p>parceiros :</p> <br>
+            <img src="imagens/uninter.jpg" width="35%">
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
